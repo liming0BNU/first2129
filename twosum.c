@@ -9,7 +9,12 @@ void usage(int argc){
 }
 
 
-
+//复合声明的例子： 
+// char const *argv[]，  这是什么意思呢？
+// argv想要达到的效果？ 一个动态的二维数组。
+// char* arr[]// 一个指针数组
+// char* const arr[] // 一个常量字符串的指针数组
+// 
 int main(int argc, char const *argv[])
 {	
 	int friend_graph[CIRCLE_SIZE][CIRCLE_SIZE];
